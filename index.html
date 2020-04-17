@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<!--
+	Highlights by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+  <head>
+    <title>Highlights by HTML5 UP</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="shortcut icon" href="images/favicon.png" />
+  </head>
+  <body class="is-preload">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script>
+      function popup() {
+        if (
+          document.getElementById("name").value != "" &&
+          document.getElementById("formemail").value != ""
+        ) {
+          swal(
+            "Welcome to the Community.",
+            "We hope you have a great time.",
+            "success"
+          ).then((value) => {
+            location.reload();
+          });
+        } else {
+          alert("Please fill in all the details");
+        }
+      }
+    </script>
+
+    <!-- Header -->
+    <section id="header">
+      <header class="major">
+        <h1>Podcastsio</h1>
+        <p>All the Podcasts at your single search.</p>
+      </header>
+      <div class="container">
+        <ul class="actions special">
+          <li><a href="#footer" class="button primary scrolly">Join Now</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- One -->
+    <section id="one" class="main special">
+      <div class="container">
+        <span class="image fit primary"
+          ><img src="images/podcast.jpg" alt=""
+        /></span>
+        <div class="content">
+          <header class="major">
+            <h2>Who we are</h2>
+          </header>
+          <p>
+            The ability to listen to high-quality content no matter where you
+            are or what you're doing is a big reason for someone's growth.
+            Podcasts have now become a neccesity for all kinds of people hence,
+            there is a need of an app which provides all the podcasts related to
+            a specific term. Podcastsio is an app where you can search any
+            number of podcasts related to a term.
+          </p>
+        </div>
+        <a href="#two" class="goto-next scrolly">Next</a>
+      </div>
+    </section>
+
+    <!-- Two -->
+    <section id="two" class="main special">
+      <div class="container">
+        <span class="image fit primary"
+          ><img src="images/phone.jpg" alt=""
+        /></span>
+        <div class="content">
+          <header class="major">
+            <h2>Our Aim</h2>
+          </header>
+          <p>
+            Podcastsio aims to provide all the podcasts related to the searched
+            term and make your podcasts listening experience more trouble-free.
+          </p>
+        </div>
+        <a href="#three" class="goto-next scrolly">Next</a>
+      </div>
+    </section>
+
+    <!-- Three -->
+
+    <section id="three" class="main">
+      <div class="container">
+        <div class="content">
+          <section>
+            <h2>Advantages</h2>
+
+            <p>
+              <span class="image left"
+                ><img src="images/head.jpg" alt="" /></span
+              >As Podcast's listeners are growing day by day, hence the number
+              of podcasts are also growing with a significant number. So we have
+              created an app for you where you can not only find all the
+              podcasts but where you can even search for a term/terms and get
+              all the podcasts related to that term/terms.
+            </p>
+            <p>
+              <span class="image right"
+                ><img src="images/head3.jpeg" alt="" /></span
+              >Another advantage of Podcastsio is that it shows you the
+              recommendations of the podcasts you might be interested in, on the
+              basis of your previous searches. So you can hear the podcasts
+              which you like whenever and wherever you want.
+            </p>
+          </section>
+        </div>
+        <a href="#footer" class="goto-next scrolly">Next</a>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <section id="footer">
+      <div class="container">
+        <header class="major">
+          <h2>Get Early Access</h2>
+        </header>
+        <form
+          method="post"
+          action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfCRwLAuXmjN_0x2p0Vxi-P8I-FiiHzLYHzY2yTCQ7Br4aWGQ/formResponse"
+          class="contactForm"
+        >
+          <div class="row gtr-uniform">
+            <div class="col-6 col-1x2-xsmall">
+              <input
+                type="text"
+                name="entry.241451709"
+                id="name"
+                placeholder="Name"
+                x
+              />
+            </div>
+            <div class="col-6 col-12-xsmall">
+              <input
+                type="email"
+                name="emailAddress"
+                id="formemail"
+                placeholder="Email"
+              />
+            </div>
+
+            <div class="col-12">
+              <div class="actions special">
+                <button type="submit" class="primary" onclick="popup()">
+                  Send message
+                </button>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+      <footer>
+        <ul class="icons">
+          <li>
+            <a
+              href="https://twitter.com/tektorch"
+              class="icon brands alt fa-twitter"
+              ><span class="label">Twitter</span></a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/company/tektorch/"
+              class="icon brands fa-linkedin-in"
+              ><span class="label">Facebook</span></a
+            >
+          </li>
+        </ul>
+        <ul class="copyright">
+          <li>
+            © Tektorch. All rights reserved.
+          </li>
+        </ul>
+      </footer>
+    </section>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/contactform/contactform.js"></script>
+  </body>
+</html>
