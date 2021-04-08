@@ -1,0 +1,56 @@
+.search {
+    /* Roundness */
+    border: 1px solid #BABABA;
+    border-radius: 20px;
+    height: 30px;
+    width: 1000px;
+    padding: 8px;
+    background: white;
+    margin: 0 auto;
+    display: inline-block;
+  
+    /* Fonts and text */
+    font-family: "Helvetica Neue", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #7A7A7A;
+   }
+
+.heading{
+    text-align: center;
+    color: whitesmoke;
+}
+
+.box{
+    width: 100%;
+    text-align: center;
+}
+
+.search:hover {
+    background: #FCFCFC;
+  }
+  
+  .search:focus {
+    outline: none;
+    background: #FFFFFF;
+    border-color: #7AB0E6;
+  }
+  
+  #mglass {margin-left: 5px;}
+
+  html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+html {
+    background-color: #313a3d;
+    background-attachment: fixed,						fixed;
+    background-image: url("images/overlay.png"), url("../../images/ear.jpg");
+    background-position: top left,					center center;
+    background-repeat: repeat,						none;
+    background-size: auto,						cover;
+}
